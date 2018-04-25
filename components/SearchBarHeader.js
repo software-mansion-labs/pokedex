@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import { Text, StyleSheet, Animated, Platform } from 'react-native';
-import { SearchBar } from 'react-native-elements';
-import { GestureHandler } from 'expo';
+import PropTypes from "prop-types";
+import React, { Component } from "react";
+import { Text, StyleSheet, Animated, Platform } from "react-native";
+import { SearchBar } from "react-native-elements";
+import { GestureHandler } from "expo";
 const { BorderlessButton } = GestureHandler;
 
 export default class SearchBarHeader extends Component {
@@ -12,32 +12,32 @@ export default class SearchBarHeader extends Component {
     searchTerm: PropTypes.string.isRequired,
     onChangeText: PropTypes.func.isRequired,
     onDismiss: PropTypes.func.isRequired,
-    heightAnimatedValue: PropTypes.object.isRequired,
+    heightAnimatedValue: PropTypes.object.isRequired
   };
 
   getShadowOpacity = () =>
     this.props.heightAnimatedValue.interpolate({
       inputRange: [0, SearchBarHeader.HEIGHT],
-      outputRange: [0, 0.1],
+      outputRange: [0, 0.1]
     });
 
   getBorderBottomWidth = () =>
     this.props.heightAnimatedValue.interpolate({
       inputRange: [0, SearchBarHeader.HEIGHT],
-      outputRange: [0, StyleSheet.hairlineWidth],
+      outputRange: [0, StyleSheet.hairlineWidth]
     });
 
   getTop = () =>
     this.props.heightAnimatedValue.interpolate({
       inputRange: [0, SearchBarHeader.HEIGHT],
-      outputRange: [-SearchBarHeader.HEIGHT, 0],
+      outputRange: [-SearchBarHeader.HEIGHT, 0]
     });
 
   getOpacity = () =>
     this.props.heightAnimatedValue.interpolate({
       inputRange: [0, 1],
       outputRange: [0, 1],
-      extrapolate: 'clamp',
+      extrapolate: "clamp"
     });
 
   render() {
@@ -48,36 +48,31 @@ export default class SearchBarHeader extends Component {
           {
             ...Platform.select({
               android: {
-                shadowOpacity: this.getShadowOpacity(),
+                shadowOpacity: this.getShadowOpacity()
               },
               ios: {
-                borderBottomWidth: this.getBorderBottomWidth(),
-              },
+                borderBottomWidth: this.getBorderBottomWidth()
+              }
             }),
             top: this.getTop(),
             opacity: this.getOpacity(),
-            height: this.props.heightAnimatedValue,
-          },
-        ]}>
+            height: this.props.heightAnimatedValue
+          }
+        ]}
+      >
         <SearchBar
           lightTheme
-          ref={this.props.inputRef}
-          value={this.props.searchTerm}
           placeholder="Search"
+          ref={this.props.inputRef}
+          inputStyle={styles.input}
+          value={this.props.searchTerm}
           onChangeText={this.props.onChangeText}
-          inputStyle={{
-            backgroundColor: '#E0E0E6',
-          }}
-          containerStyle={{
-            flex: 1,
-            backgroundColor: 'transparent',
-            borderTopWidth: 0,
-            borderBottomWidth: 0,
-          }}
+          containerStyle={styles.searchContainer}
         />
         <BorderlessButton
-          style={{ paddingRight: 8, paddingVertical: 8 }}
-          onPress={this.props.onDismiss}>
+          style={styles.cancelButton}
+          onPress={this.props.onDismiss}
+        >
           <Text>Cancel</Text>
         </BorderlessButton>
       </Animated.View>
@@ -88,22 +83,32 @@ export default class SearchBarHeader extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    position: 'relative',
+    flexDirection: "row",
+    alignItems: "center",
+    position: "relative",
     ...Platform.select({
       android: {
         shadowOpacity: 0.1,
-        shadowColor: 'black',
+        shadowColor: "black",
         shadowRadius: StyleSheet.hairlineWidth,
         shadowOffset: {
-          height: StyleSheet.hairlineWidth,
+          height: StyleSheet.hairlineWidth
         },
-        elevation: 2,
+        elevation: 2
       },
       ios: {
-        borderBottomColor: '#DADADD',
-      },
-    }),
+        borderBottomColor: "#DADADD"
+      }
+    })
   },
+  input: {
+    backgroundColor: "#E0E0E6"
+  },
+  searchContainer: {
+    flex: 1,
+    backgroundColor: "transparent",
+    borderTopWidth: 0,
+    borderBottomWidth: 0
+  },
+  cancelButton: { paddingRight: 8, paddingVertical: 8 }
 });
