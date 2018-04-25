@@ -2,1001 +2,1001 @@ export default [
   {
     "id": 1,
     "slug": "ivysaur",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
-    "min_weight": 32,
-    "max_weight": 217,
-    "min_height": 9,
-    "max_height": 10
+    "minWeight": 32,
+    "maxWeight": 217,
+    "minHeight": 9,
+    "maxHeight": 10
   },
   {
     "id": 2,
     "slug": "venusaur",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
-    "min_weight": 940,
-    "max_weight": 1388,
-    "min_height": 8,
-    "max_height": 31
+    "minWeight": 940,
+    "maxWeight": 1388,
+    "minHeight": 8,
+    "maxHeight": 31
   },
   {
     "id": 3,
     "slug": "charmander",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-    "min_weight": 38,
-    "max_weight": 158,
-    "min_height": 1,
-    "max_height": 9
+    "minWeight": 38,
+    "maxWeight": 158,
+    "minHeight": 1,
+    "maxHeight": 9
   },
   {
     "id": 4,
     "slug": "charmeleon",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
-    "min_weight": 100,
-    "max_weight": 378,
-    "min_height": 6,
-    "max_height": 20
+    "minWeight": 100,
+    "maxWeight": 378,
+    "minHeight": 6,
+    "maxHeight": 20
   },
   {
     "id": 5,
     "slug": "charizard",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
-    "min_weight": 762,
-    "max_weight": 1146,
-    "min_height": 6,
-    "max_height": 27
+    "minWeight": 762,
+    "maxWeight": 1146,
+    "minHeight": 6,
+    "maxHeight": 27
   },
   {
     "id": 6,
     "slug": "squirtle",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-    "min_weight": 71,
-    "max_weight": 97,
-    "min_height": 3,
-    "max_height": 7
+    "minWeight": 71,
+    "maxWeight": 97,
+    "minHeight": 3,
+    "maxHeight": 7
   },
   {
     "id": 7,
     "slug": "wartortle",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
-    "min_weight": 129,
-    "max_weight": 310,
-    "min_height": 2,
-    "max_height": 18
+    "minWeight": 129,
+    "maxWeight": 310,
+    "minHeight": 2,
+    "maxHeight": 18
   },
   {
     "id": 8,
     "slug": "blastoise",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
-    "min_weight": 203,
-    "max_weight": 1533,
-    "min_height": 8,
-    "max_height": 19
+    "minWeight": 203,
+    "maxWeight": 1533,
+    "minHeight": 8,
+    "maxHeight": 19
   },
   {
     "id": 9,
     "slug": "caterpie",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
-    "min_weight": 17,
-    "max_weight": 57,
-    "min_height": 3,
-    "max_height": 5
+    "minWeight": 17,
+    "maxWeight": 57,
+    "minHeight": 3,
+    "maxHeight": 5
   },
   {
     "id": 10,
     "slug": "metapod",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
-    "min_weight": 61,
-    "max_weight": 132,
-    "min_height": 2,
-    "max_height": 8
+    "minWeight": 61,
+    "maxWeight": 132,
+    "minHeight": 2,
+    "maxHeight": 8
   },
   {
     "id": 11,
     "slug": "butterfree",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
-    "min_weight": 147,
-    "max_weight": 539,
-    "min_height": 8,
-    "max_height": 13
+    "minWeight": 147,
+    "maxWeight": 539,
+    "minHeight": 8,
+    "maxHeight": 13
   },
   {
     "id": 12,
     "slug": "weedle",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
-    "min_weight": 13,
-    "max_weight": 40,
-    "min_height": 2,
-    "max_height": 4
+    "minWeight": 13,
+    "maxWeight": 40,
+    "minHeight": 2,
+    "maxHeight": 4
   },
   {
     "id": 13,
     "slug": "kakuna",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
-    "min_weight": 71,
-    "max_weight": 125,
-    "min_height": 3,
-    "max_height": 11
+    "minWeight": 71,
+    "maxWeight": 125,
+    "minHeight": 3,
+    "maxHeight": 11
   },
   {
     "id": 14,
     "slug": "beedrill",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
-    "min_weight": 233,
-    "max_weight": 407,
-    "min_height": 8,
-    "max_height": 14
+    "minWeight": 233,
+    "maxWeight": 407,
+    "minHeight": 8,
+    "maxHeight": 14
   },
   {
     "id": 15,
     "slug": "pidgey",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
-    "min_weight": 5,
-    "max_weight": 28,
-    "min_height": 1,
-    "max_height": 4
+    "minWeight": 5,
+    "maxWeight": 28,
+    "minHeight": 1,
+    "maxHeight": 4
   },
   {
     "id": 16,
     "slug": "pidgeotto",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
-    "min_weight": 74,
-    "max_weight": 357,
-    "min_height": 2,
-    "max_height": 16
+    "minWeight": 74,
+    "maxWeight": 357,
+    "minHeight": 2,
+    "maxHeight": 16
   },
   {
     "id": 17,
     "slug": "pidgeot",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
-    "min_weight": 64,
-    "max_weight": 679,
-    "min_height": 15,
-    "max_height": 16
+    "minWeight": 64,
+    "maxWeight": 679,
+    "minHeight": 15,
+    "maxHeight": 16
   },
   {
     "id": 18,
     "slug": "rattata",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
-    "min_weight": 27,
-    "max_weight": 67,
-    "min_height": 3,
-    "max_height": 4
+    "minWeight": 27,
+    "maxWeight": 67,
+    "minHeight": 3,
+    "maxHeight": 4
   },
   {
     "id": 19,
     "slug": "raticate",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
-    "min_weight": 40,
-    "max_weight": 268,
-    "min_height": 6,
-    "max_height": 7
+    "minWeight": 40,
+    "maxWeight": 268,
+    "minHeight": 6,
+    "maxHeight": 7
   },
   {
     "id": 20,
     "slug": "spearow",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
-    "min_weight": 14,
-    "max_weight": 37,
-    "min_height": 3,
-    "max_height": 5
+    "minWeight": 14,
+    "maxWeight": 37,
+    "minHeight": 3,
+    "maxHeight": 5
   },
   {
     "id": 21,
     "slug": "fearow",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
-    "min_weight": 180,
-    "max_weight": 516,
-    "min_height": 4,
-    "max_height": 21
+    "minWeight": 180,
+    "maxWeight": 516,
+    "minHeight": 4,
+    "maxHeight": 21
   },
   {
     "id": 22,
     "slug": "ekans",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
-    "min_weight": 24,
-    "max_weight": 128,
-    "min_height": 9,
-    "max_height": 20
+    "minWeight": 24,
+    "maxWeight": 128,
+    "minHeight": 9,
+    "maxHeight": 20
   },
   {
     "id": 23,
     "slug": "arbok",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
-    "min_weight": 58,
-    "max_weight": 768,
-    "min_height": 18,
-    "max_height": 52
+    "minWeight": 58,
+    "maxWeight": 768,
+    "minHeight": 18,
+    "maxHeight": 52
   },
   {
     "id": 24,
     "slug": "pikachu",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-    "min_weight": 6,
-    "max_weight": 108,
-    "min_height": 3,
-    "max_height": 4
+    "minWeight": 6,
+    "maxWeight": 108,
+    "minHeight": 3,
+    "maxHeight": 4
   },
   {
     "id": 25,
     "slug": "raichu",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
-    "min_weight": 245,
-    "max_weight": 456,
-    "min_height": 3,
-    "max_height": 14
+    "minWeight": 245,
+    "maxWeight": 456,
+    "minHeight": 3,
+    "maxHeight": 14
   },
   {
     "id": 26,
     "slug": "sandshrew",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
-    "min_weight": 43,
-    "max_weight": 228,
-    "min_height": 2,
-    "max_height": 9
+    "minWeight": 43,
+    "maxWeight": 228,
+    "minHeight": 2,
+    "maxHeight": 9
   },
   {
     "id": 27,
     "slug": "sandslash",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
-    "min_weight": 126,
-    "max_weight": 578,
-    "min_height": 3,
-    "max_height": 14
+    "minWeight": 126,
+    "maxWeight": 578,
+    "minHeight": 3,
+    "maxHeight": 14
   },
   {
     "id": 28,
     "slug": "nidoran-f",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
-    "min_weight": 58,
-    "max_weight": 118,
-    "min_height": 2,
-    "max_height": 7
+    "minWeight": 58,
+    "maxWeight": 118,
+    "minHeight": 2,
+    "maxHeight": 7
   },
   {
     "id": 29,
     "slug": "nidorina",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
-    "min_weight": 120,
-    "max_weight": 241,
-    "min_height": 5,
-    "max_height": 12
+    "minWeight": 120,
+    "maxWeight": 241,
+    "minHeight": 5,
+    "maxHeight": 12
   },
   {
     "id": 30,
     "slug": "nidoqueen",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
-    "min_weight": 270,
-    "max_weight": 776,
-    "min_height": 1,
-    "max_height": 17
+    "minWeight": 270,
+    "maxWeight": 776,
+    "minHeight": 1,
+    "maxHeight": 17
   },
   {
     "id": 31,
     "slug": "nidoran-m",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
-    "min_weight": 34,
-    "max_weight": 128,
-    "min_height": 2,
-    "max_height": 7
+    "minWeight": 34,
+    "maxWeight": 128,
+    "minHeight": 2,
+    "maxHeight": 7
   },
   {
     "id": 32,
     "slug": "nidorino",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
-    "min_weight": 115,
-    "max_weight": 343,
-    "min_height": 7,
-    "max_height": 15
+    "minWeight": 115,
+    "maxWeight": 343,
+    "minHeight": 7,
+    "maxHeight": 15
   },
   {
     "id": 33,
     "slug": "nidoking",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
-    "min_weight": 605,
-    "max_weight": 1057,
-    "min_height": 12,
-    "max_height": 18
+    "minWeight": 605,
+    "maxWeight": 1057,
+    "minHeight": 12,
+    "maxHeight": 18
   },
   {
     "id": 34,
     "slug": "clefairy",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
-    "min_weight": 17,
-    "max_weight": 77,
-    "min_height": 2,
-    "max_height": 9
+    "minWeight": 17,
+    "maxWeight": 77,
+    "minHeight": 2,
+    "maxHeight": 9
   },
   {
     "id": 35,
     "slug": "clefable",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
-    "min_weight": 191,
-    "max_weight": 707,
-    "min_height": 5,
-    "max_height": 24
+    "minWeight": 191,
+    "maxWeight": 707,
+    "minHeight": 5,
+    "maxHeight": 24
   },
   {
     "id": 36,
     "slug": "vulpix",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
-    "min_weight": 72,
-    "max_weight": 117,
-    "min_height": 2,
-    "max_height": 7
+    "minWeight": 72,
+    "maxWeight": 117,
+    "minHeight": 2,
+    "maxHeight": 7
   },
   {
     "id": 37,
     "slug": "ninetales",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
-    "min_weight": 161,
-    "max_weight": 349,
-    "min_height": 11,
-    "max_height": 21
+    "minWeight": 161,
+    "maxWeight": 349,
+    "minHeight": 11,
+    "maxHeight": 21
   },
   {
     "id": 38,
     "slug": "jigglypuff",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
-    "min_weight": 41,
-    "max_weight": 96,
-    "min_height": 5,
-    "max_height": 6
+    "minWeight": 41,
+    "maxWeight": 96,
+    "minHeight": 5,
+    "maxHeight": 6
   },
   {
     "id": 39,
     "slug": "wigglytuff",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
-    "min_weight": 96,
-    "max_weight": 161,
-    "min_height": 4,
-    "max_height": 10
+    "minWeight": 96,
+    "maxWeight": 161,
+    "minHeight": 4,
+    "maxHeight": 10
   },
   {
     "id": 40,
     "slug": "zubat",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
-    "min_weight": 39,
-    "max_weight": 142,
-    "min_height": 7,
-    "max_height": 14
+    "minWeight": 39,
+    "maxWeight": 142,
+    "minHeight": 7,
+    "maxHeight": 14
   },
   {
     "id": 41,
     "slug": "golbat",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
-    "min_weight": 527,
-    "max_weight": 773,
-    "min_height": 3,
-    "max_height": 21
+    "minWeight": 527,
+    "maxWeight": 773,
+    "minHeight": 3,
+    "maxHeight": 21
   },
   {
     "id": 42,
     "slug": "oddish",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
-    "min_weight": 24,
-    "max_weight": 104,
-    "min_height": 1,
-    "max_height": 6
+    "minWeight": 24,
+    "maxWeight": 104,
+    "minHeight": 1,
+    "maxHeight": 6
   },
   {
     "id": 43,
     "slug": "gloom",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
-    "min_weight": 64,
-    "max_weight": 152,
-    "min_height": 2,
-    "max_height": 9
+    "minWeight": 64,
+    "maxWeight": 152,
+    "minHeight": 2,
+    "maxHeight": 9
   },
   {
     "id": 44,
     "slug": "vileplume",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
-    "min_weight": 41,
-    "max_weight": 336,
-    "min_height": 8,
-    "max_height": 18
+    "minWeight": 41,
+    "maxWeight": 336,
+    "minHeight": 8,
+    "maxHeight": 18
   },
   {
     "id": 45,
     "slug": "paras",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
-    "min_weight": 15,
-    "max_weight": 71,
-    "min_height": 1,
-    "max_height": 5
+    "minWeight": 15,
+    "maxWeight": 71,
+    "minHeight": 1,
+    "maxHeight": 5
   },
   {
     "id": 46,
     "slug": "parasect",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
-    "min_weight": 74,
-    "max_weight": 528,
-    "min_height": 3,
-    "max_height": 17
+    "minWeight": 74,
+    "maxWeight": 528,
+    "minHeight": 3,
+    "maxHeight": 17
   },
   {
     "id": 47,
     "slug": "venonat",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
-    "min_weight": 42,
-    "max_weight": 317,
-    "min_height": 9,
-    "max_height": 14
+    "minWeight": 42,
+    "maxWeight": 317,
+    "minHeight": 9,
+    "maxHeight": 14
   },
   {
     "id": 48,
     "slug": "venomoth",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
-    "min_weight": 52,
-    "max_weight": 199,
-    "min_height": 14,
-    "max_height": 20
+    "minWeight": 52,
+    "maxWeight": 199,
+    "minHeight": 14,
+    "maxHeight": 20
   },
   {
     "id": 49,
     "slug": "diglett",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
-    "min_weight": 8,
-    "max_weight": 8,
-    "min_height": 2,
-    "max_height": 3
+    "minWeight": 8,
+    "maxWeight": 8,
+    "minHeight": 2,
+    "maxHeight": 3
   },
   {
     "id": 50,
     "slug": "dugtrio",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
-    "min_weight": 176,
-    "max_weight": 489,
-    "min_height": 2,
-    "max_height": 10
+    "minWeight": 176,
+    "maxWeight": 489,
+    "minHeight": 2,
+    "maxHeight": 10
   },
   {
     "id": 51,
     "slug": "meowth",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
-    "min_weight": 14,
-    "max_weight": 74,
-    "min_height": 3,
-    "max_height": 7
+    "minWeight": 14,
+    "maxWeight": 74,
+    "minHeight": 3,
+    "maxHeight": 7
   },
   {
     "id": 52,
     "slug": "persian",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
-    "min_weight": 69,
-    "max_weight": 497,
-    "min_height": 10,
-    "max_height": 14
+    "minWeight": 69,
+    "maxWeight": 497,
+    "minHeight": 10,
+    "maxHeight": 14
   },
   {
     "id": 53,
     "slug": "psyduck",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
-    "min_weight": 137,
-    "max_weight": 359,
-    "min_height": 8,
-    "max_height": 13
+    "minWeight": 137,
+    "maxWeight": 359,
+    "minHeight": 8,
+    "maxHeight": 13
   },
   {
     "id": 54,
     "slug": "golduck",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
-    "min_weight": 580,
-    "max_weight": 1472,
-    "min_height": 3,
-    "max_height": 27
+    "minWeight": 580,
+    "maxWeight": 1472,
+    "minHeight": 3,
+    "maxHeight": 27
   },
   {
     "id": 55,
     "slug": "mankey",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
-    "min_weight": 47,
-    "max_weight": 400,
-    "min_height": 1,
-    "max_height": 5
+    "minWeight": 47,
+    "maxWeight": 400,
+    "minHeight": 1,
+    "maxHeight": 5
   },
   {
     "id": 56,
     "slug": "primeape",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
-    "min_weight": 57,
-    "max_weight": 496,
-    "min_height": 7,
-    "max_height": 14
+    "minWeight": 57,
+    "maxWeight": 496,
+    "minHeight": 7,
+    "maxHeight": 14
   },
   {
     "id": 57,
     "slug": "growlithe",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
-    "min_weight": 49,
-    "max_weight": 290,
-    "min_height": 3,
-    "max_height": 11
+    "minWeight": 49,
+    "maxWeight": 290,
+    "minHeight": 3,
+    "maxHeight": 11
   },
   {
     "id": 58,
     "slug": "arcanine",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
-    "min_weight": 362,
-    "max_weight": 2095,
-    "min_height": 17,
-    "max_height": 36
+    "minWeight": 362,
+    "maxWeight": 2095,
+    "minHeight": 17,
+    "maxHeight": 36
   },
   {
     "id": 59,
     "slug": "poliwag",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
-    "min_weight": 72,
-    "max_weight": 218,
-    "min_height": 2,
-    "max_height": 7
+    "minWeight": 72,
+    "maxWeight": 218,
+    "minHeight": 2,
+    "maxHeight": 7
   },
   {
     "id": 60,
     "slug": "poliwhirl",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
-    "min_weight": 93,
-    "max_weight": 200,
-    "min_height": 7,
-    "max_height": 12
+    "minWeight": 93,
+    "maxWeight": 200,
+    "minHeight": 7,
+    "maxHeight": 12
   },
   {
     "id": 61,
     "slug": "poliwrath",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
-    "min_weight": 451,
-    "max_weight": 616,
-    "min_height": 11,
-    "max_height": 13
+    "minWeight": 451,
+    "maxWeight": 616,
+    "minHeight": 11,
+    "maxHeight": 13
   },
   {
     "id": 62,
     "slug": "abra",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
-    "min_weight": 195,
-    "max_weight": 330,
-    "min_height": 9,
-    "max_height": 17
+    "minWeight": 195,
+    "maxWeight": 330,
+    "minHeight": 9,
+    "maxHeight": 17
   },
   {
     "id": 63,
     "slug": "kadabra",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
-    "min_weight": 46,
-    "max_weight": 619,
-    "min_height": 10,
-    "max_height": 17
+    "minWeight": 46,
+    "maxWeight": 619,
+    "minHeight": 10,
+    "maxHeight": 17
   },
   {
     "id": 64,
     "slug": "alakazam",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
-    "min_weight": 461,
-    "max_weight": 836,
-    "min_height": 13,
-    "max_height": 15
+    "minWeight": 461,
+    "maxWeight": 836,
+    "minHeight": 13,
+    "maxHeight": 15
   },
   {
     "id": 65,
     "slug": "machop",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
-    "min_weight": 34,
-    "max_weight": 387,
-    "min_height": 7,
-    "max_height": 9
+    "minWeight": 34,
+    "maxWeight": 387,
+    "minHeight": 7,
+    "maxHeight": 9
   },
   {
     "id": 66,
     "slug": "machoke",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
-    "min_weight": 548,
-    "max_weight": 1361,
-    "min_height": 6,
-    "max_height": 21
+    "minWeight": 548,
+    "maxWeight": 1361,
+    "minHeight": 6,
+    "maxHeight": 21
   },
   {
     "id": 67,
     "slug": "machamp",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
-    "min_weight": 797,
-    "max_weight": 1461,
-    "min_height": 6,
-    "max_height": 23
+    "minWeight": 797,
+    "maxWeight": 1461,
+    "minHeight": 6,
+    "maxHeight": 23
   },
   {
     "id": 68,
     "slug": "bellsprout",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
-    "min_weight": 31,
-    "max_weight": 44,
-    "min_height": 2,
-    "max_height": 10
+    "minWeight": 31,
+    "maxWeight": 44,
+    "minHeight": 2,
+    "maxHeight": 10
   },
   {
     "id": 69,
     "slug": "weepinbell",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
-    "min_weight": 11,
-    "max_weight": 69,
-    "min_height": 10,
-    "max_height": 14
+    "minWeight": 11,
+    "maxWeight": 69,
+    "minHeight": 10,
+    "maxHeight": 14
   },
   {
     "id": 70,
     "slug": "victreebel",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
-    "min_weight": 76,
-    "max_weight": 282,
-    "min_height": 13,
-    "max_height": 28
+    "minWeight": 76,
+    "maxWeight": 282,
+    "minHeight": 13,
+    "maxHeight": 28
   },
   {
     "id": 71,
     "slug": "tentacool",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
-    "min_weight": 346,
-    "max_weight": 642,
-    "min_height": 7,
-    "max_height": 12
+    "minWeight": 346,
+    "maxWeight": 642,
+    "minHeight": 7,
+    "maxHeight": 12
   },
   {
     "id": 72,
     "slug": "tentacruel",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
-    "min_weight": 63,
-    "max_weight": 606,
-    "min_height": 16,
-    "max_height": 17
+    "minWeight": 63,
+    "maxWeight": 606,
+    "minHeight": 16,
+    "maxHeight": 17
   },
   {
     "id": 73,
     "slug": "geodude",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
-    "min_weight": 63,
-    "max_weight": 223,
-    "min_height": 2,
-    "max_height": 7
+    "minWeight": 63,
+    "maxWeight": 223,
+    "minHeight": 2,
+    "maxHeight": 7
   },
   {
     "id": 74,
     "slug": "graveler",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
-    "min_weight": 141,
-    "max_weight": 1537,
-    "min_height": 8,
-    "max_height": 10
+    "minWeight": 141,
+    "maxWeight": 1537,
+    "minHeight": 8,
+    "maxHeight": 10
   },
   {
     "id": 75,
     "slug": "golem",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
-    "min_weight": 323,
-    "max_weight": 3047,
-    "min_height": 2,
-    "max_height": 17
+    "minWeight": 323,
+    "maxWeight": 3047,
+    "minHeight": 2,
+    "maxHeight": 17
   },
   {
     "id": 76,
     "slug": "ponyta",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
-    "min_weight": 106,
-    "max_weight": 576,
-    "min_height": 5,
-    "max_height": 14
+    "minWeight": 106,
+    "maxWeight": 576,
+    "minHeight": 5,
+    "maxHeight": 14
   },
   {
     "id": 77,
     "slug": "rapidash",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
-    "min_weight": 315,
-    "max_weight": 1416,
-    "min_height": 9,
-    "max_height": 24
+    "minWeight": 315,
+    "maxWeight": 1416,
+    "minHeight": 9,
+    "maxHeight": 24
   },
   {
     "id": 78,
     "slug": "slowpoke",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
-    "min_weight": 208,
-    "max_weight": 594,
-    "min_height": 8,
-    "max_height": 23
+    "minWeight": 208,
+    "maxWeight": 594,
+    "minHeight": 8,
+    "maxHeight": 23
   },
   {
     "id": 79,
     "slug": "slowbro",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
-    "min_weight": 493,
-    "max_weight": 848,
-    "min_height": 5,
-    "max_height": 26
+    "minWeight": 493,
+    "maxWeight": 848,
+    "minHeight": 5,
+    "maxHeight": 26
   },
   {
     "id": 80,
     "slug": "magnemite",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
-    "min_weight": 47,
-    "max_weight": 77,
-    "min_height": 1,
-    "max_height": 4
+    "minWeight": 47,
+    "maxWeight": 77,
+    "minHeight": 1,
+    "maxHeight": 4
   },
   {
     "id": 81,
     "slug": "magneton",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
-    "min_weight": 40,
-    "max_weight": 1172,
-    "min_height": 3,
-    "max_height": 17
+    "minWeight": 40,
+    "maxWeight": 1172,
+    "minHeight": 3,
+    "maxHeight": 17
   },
   {
     "id": 82,
     "slug": "farfetchd",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
-    "min_weight": 107,
-    "max_weight": 226,
-    "min_height": 3,
-    "max_height": 14
+    "minWeight": 107,
+    "maxWeight": 226,
+    "minHeight": 3,
+    "maxHeight": 14
   },
   {
     "id": 83,
     "slug": "doduo",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
-    "min_weight": 50,
-    "max_weight": 654,
-    "min_height": 6,
-    "max_height": 26
+    "minWeight": 50,
+    "maxWeight": 654,
+    "minHeight": 6,
+    "maxHeight": 26
   },
   {
     "id": 84,
     "slug": "dodrio",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
-    "min_weight": 494,
-    "max_weight": 1193,
-    "min_height": 8,
-    "max_height": 23
+    "minWeight": 494,
+    "maxWeight": 1193,
+    "minHeight": 8,
+    "maxHeight": 23
   },
   {
     "id": 85,
     "slug": "seel",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
-    "min_weight": 411,
-    "max_weight": 1778,
-    "min_height": 8,
-    "max_height": 15
+    "minWeight": 411,
+    "maxWeight": 1778,
+    "minHeight": 8,
+    "maxHeight": 15
   },
   {
     "id": 86,
     "slug": "dewgong",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
-    "min_weight": 1034,
-    "max_weight": 1250,
-    "min_height": 1,
-    "max_height": 21
+    "minWeight": 1034,
+    "maxWeight": 1250,
+    "minHeight": 1,
+    "maxHeight": 21
   },
   {
     "id": 87,
     "slug": "grimer",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
-    "min_weight": 6,
-    "max_weight": 384,
-    "min_height": 9,
-    "max_height": 10
+    "minWeight": 6,
+    "maxWeight": 384,
+    "minHeight": 9,
+    "maxHeight": 10
   },
   {
     "id": 88,
     "slug": "muk",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
-    "min_weight": 283,
-    "max_weight": 312,
-    "min_height": 1,
-    "max_height": 21
+    "minWeight": 283,
+    "maxWeight": 312,
+    "minHeight": 1,
+    "maxHeight": 21
   },
   {
     "id": 89,
     "slug": "shellder",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
-    "min_weight": 32,
-    "max_weight": 69,
-    "min_height": 3,
-    "max_height": 3
+    "minWeight": 32,
+    "maxWeight": 69,
+    "minHeight": 3,
+    "maxHeight": 3
   },
   {
     "id": 90,
     "slug": "cloyster",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
-    "min_weight": 1313,
-    "max_weight": 2342,
-    "min_height": 2,
-    "max_height": 21
+    "minWeight": 1313,
+    "maxWeight": 2342,
+    "minHeight": 2,
+    "maxHeight": 21
   },
   {
     "id": 91,
     "slug": "gastly",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
-    "min_weight": 1,
-    "max_weight": 1,
-    "min_height": 12,
-    "max_height": 14
+    "minWeight": 1,
+    "maxWeight": 1,
+    "minHeight": 12,
+    "maxHeight": 14
   },
   {
     "id": 92,
     "slug": "haunter",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
-    "min_weight": 1,
-    "max_weight": 1,
-    "min_height": 2,
-    "max_height": 18
+    "minWeight": 1,
+    "maxWeight": 1,
+    "minHeight": 2,
+    "maxHeight": 18
   },
   {
     "id": 93,
     "slug": "gengar",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
-    "min_weight": 156,
-    "max_weight": 786,
-    "min_height": 11,
-    "max_height": 21
+    "minWeight": 156,
+    "maxWeight": 786,
+    "minHeight": 11,
+    "maxHeight": 21
   },
   {
     "id": 94,
     "slug": "onix",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
-    "min_weight": 682,
-    "max_weight": 2138,
-    "min_height": 43,
-    "max_height": 114
+    "minWeight": 682,
+    "maxWeight": 2138,
+    "minHeight": 43,
+    "maxHeight": 114
   },
   {
     "id": 95,
     "slug": "drowzee",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
-    "min_weight": 75,
-    "max_weight": 440,
-    "min_height": 3,
-    "max_height": 12
+    "minWeight": 75,
+    "maxWeight": 440,
+    "minHeight": 3,
+    "maxHeight": 12
   },
   {
     "id": 96,
     "slug": "hypno",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
-    "min_weight": 646,
-    "max_weight": 1334,
-    "min_height": 12,
-    "max_height": 30
+    "minWeight": 646,
+    "maxWeight": 1334,
+    "minHeight": 12,
+    "maxHeight": 30
   },
   {
     "id": 97,
     "slug": "krabby",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
-    "min_weight": 33,
-    "max_weight": 105,
-    "min_height": 2,
-    "max_height": 5
+    "minWeight": 33,
+    "maxWeight": 105,
+    "minHeight": 2,
+    "maxHeight": 5
   },
   {
     "id": 98,
     "slug": "kingler",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
-    "min_weight": 565,
-    "max_weight": 881,
-    "min_height": 4,
-    "max_height": 20
+    "minWeight": 565,
+    "maxWeight": 881,
+    "minHeight": 4,
+    "maxHeight": 20
   },
   {
     "id": 99,
     "slug": "voltorb",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
-    "min_weight": 38,
-    "max_weight": 133,
-    "min_height": 3,
-    "max_height": 9
+    "minWeight": 38,
+    "maxWeight": 133,
+    "minHeight": 3,
+    "maxHeight": 9
   },
   {
     "id": 100,
     "slug": "electrode",
-    "image_url":
+    "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
-    "min_weight": 69,
-    "max_weight": 699,
-    "min_height": 1,
-    "max_height": 15
+    "minWeight": 69,
+    "maxWeight": 699,
+    "minHeight": 1,
+    "maxHeight": 15
   }
 ]

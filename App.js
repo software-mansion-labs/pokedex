@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AppLoading, Audio, Font, Asset } from "expo";
+import { AppLoading, Font, Asset } from "expo";
 import {
   Ionicons,
   MaterialIcons,

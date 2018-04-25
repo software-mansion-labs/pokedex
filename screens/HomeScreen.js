@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types';
 import React, { Component } from "react";
 import { StyleSheet, FlatList, Image, Animated } from "react-native";
-import { AppLoading, Audio, Font, Asset } from "expo";
 import { createStackNavigator } from "react-navigation";
 
 import pokemons from "../pokemons";
@@ -20,6 +20,13 @@ class App extends Component {
     ),
     headerRight: <SearchButton navigation={navigation} />
   });
+
+  static propTypes = {
+    navigation: PropTypes.shape({
+      getParam: PropTypes.func.isRequired,
+      setParams: PropTypes.func.isRequired,
+    }).isRequired,
+  };
 
   state = {
     searchTerm: "",

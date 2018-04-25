@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import { Text, View, StyleSheet, Image } from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import PropTypes from "prop-types";
+import React, { Component } from "react";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { Text, View, StyleSheet, Image } from "react-native";
 
 export default class PokemonRow extends Component {
   static HEIGHT = 200;
@@ -9,30 +9,43 @@ export default class PokemonRow extends Component {
     pokemon: PropTypes.shape({
       id: PropTypes.number.isRequired,
       slug: PropTypes.string.isRequired,
-      image_url: PropTypes.string.isRequired,
-    }).isRequired,
+      imageUrl: PropTypes.string.isRequired,
+      minHeight: PropTypes.number.isRequired,
+      maxHeight: PropTypes.number.isRequired,
+      minWeight: PropTypes.number.isRequired,
+      maxWeight: PropTypes.number.isRequired
+    }).isRequired
   };
-  
-  getName = (pokemon) => `${pokemon.slug[0].toUpperCase()}${pokemon.slug.slice(1)}`;
-  
-  getDetails = (pokemon) => `${pokemon.slug[0].toUpperCase()}${pokemon.slug.slice(1)}`;
-  
+
+  getName = pokemon =>
+    `${pokemon.slug[0].toUpperCase()}${pokemon.slug.slice(1)}`;
+
+  getDetails = pokemon =>
+    `${pokemon.slug[0].toUpperCase()}${pokemon.slug.slice(1)}`;
+
+  getMinHeight = pokemon => Math.round(pokemon.minHeight / 1.5);
+  getMaxHeight = pokemon => Math.round(pokemon.maxHeight / 1.2);
+  getMinWeight = pokemon => Math.round(pokemon.minWeight / 4);
+  getMaxWeight = pokemon => Math.round(pokemon.maxWeight / 4);
+
   render() {
-    return (
-      <View style={styles.container}>
-        <Image source={{ uri: this.props.pokemon.image_url }} style={styles.image} resizeMode="contain" />
-        <Text style={styles.pokemonName}>{this.getName(this.props.pokemon)}</Text>
+    return <View style={styles.container}>
+        <Image source={{ uri: this.props.pokemon.imageUrl }} style={styles.image} resizeMode="contain" />
+        <Text style={styles.pokemonName}>
+          {this.getName(this.props.pokemon)}
+        </Text>
         <Text style={styles.pokemonDetails}>
           <MaterialCommunityIcons name="arrow-collapse-down" />
-          {` ${(this.props.pokemon.min_height / 1.5).toFixed(0)} cm – ${(this.props.pokemon.max_height / 1.2).toFixed(0)} cm `}
+          {` ${this.getMinHeight(this.props.pokemon)} cm – ${this.getMaxHeight(this.props.pokemon)} cm `}
           <MaterialCommunityIcons name="arrow-collapse-up" />
         </Text>
         <Text style={styles.pokemonDetails}>
-          <MaterialCommunityIcons name="weight" />
-          {" "}{(this.props.pokemon.min_weight / 4).toFixed(0)}{" kg – "}{(this.props.pokemon.max_weight / 4).toFixed(0)}{" kg"}
+          <MaterialCommunityIcons name="weight" /> {this.getMinWeight(this.props.pokemon)}
+          {" kg – "}
+          {this.getMaxWeight(this.props.pokemon)}
+          {" kg"}
         </Text>
-      </View>
-    );
+      </View>;
   }
 }
 
@@ -44,20 +57,20 @@ const styles = StyleSheet.create({
     borderBottomColor: "gray",
     alignItems: "center",
     paddingHorizontal: 8,
-    marginRight: 10,
+    marginRight: 10
   },
   image: {
     alignSelf: "stretch",
-    height: 120,
+    height: 120
   },
   pokemonName: {
     fontSize: 20,
     textAlign: "center",
-    fontWeight: "600",
+    fontWeight: "600"
   },
   pokemonDetails: {
     marginTop: 6,
     textAlign: "center",
-    color: "#808080",
-  },
+    color: "#808080"
+  }
 });
