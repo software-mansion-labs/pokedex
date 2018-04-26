@@ -1,23 +1,32 @@
 {
-  "name": "pokedex2",
+  "name": "pokegraph",
   "version": "0.0.0",
-  "description": "No description",
-  "author": null,
-  "private": true,
+  "description": "Pokedex on GraphQL, what could be better?",
+  "author": "Stanisław Chmiela <stanislaw.chmiela@swmansion.com>",
+  "private": false,
   "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "relay": "relay-compiler --src ./ --schema ./schema.json",
+    "relay-watch": "relay-compiler --src ./ --schema ./schema.json --watch"
+  },
   "dependencies": {
     "@expo/vector-icons": "6.2.1",
     "expo": "^26.0.0",
     "react": "16.3.0-alpha.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
+    "react-native":
+      "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
     "react-native-elements": "1.0.0-beta4",
-    "react-navigation": "2.0.0-rc.3"
+    "react-navigation": "2.0.0-rc.3",
+    "react-relay": "^1.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "babel-plugin-relay": "^1.5.0",
     "babel-preset-expo": "^4.0.0",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-react-native": "^3.2.1"
+    "eslint-plugin-react-native": "^3.2.1",
+    "graphql": "^0.13.2",
+    "relay-compiler": "^1.5.0"
   }
 }

@@ -1,6 +1,6 @@
 export default [
   {
-    "id": 1,
+    "id": "1",
     "slug": "ivysaur",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
@@ -10,7 +10,7 @@ export default [
     "maxHeight": 10
   },
   {
-    "id": 2,
+    "id": "2",
     "slug": "venusaur",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
@@ -20,7 +20,7 @@ export default [
     "maxHeight": 31
   },
   {
-    "id": 3,
+    "id": "3",
     "slug": "charmander",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
@@ -30,7 +30,7 @@ export default [
     "maxHeight": 9
   },
   {
-    "id": 4,
+    "id": "4",
     "slug": "charmeleon",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
@@ -40,7 +40,7 @@ export default [
     "maxHeight": 20
   },
   {
-    "id": 5,
+    "id": "5",
     "slug": "charizard",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
@@ -50,7 +50,7 @@ export default [
     "maxHeight": 27
   },
   {
-    "id": 6,
+    "id": "6",
     "slug": "squirtle",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
@@ -60,7 +60,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 7,
+    "id": "7",
     "slug": "wartortle",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
@@ -70,7 +70,7 @@ export default [
     "maxHeight": 18
   },
   {
-    "id": 8,
+    "id": "8",
     "slug": "blastoise",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
@@ -80,7 +80,7 @@ export default [
     "maxHeight": 19
   },
   {
-    "id": 9,
+    "id": "9",
     "slug": "caterpie",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
@@ -90,7 +90,7 @@ export default [
     "maxHeight": 5
   },
   {
-    "id": 10,
+    "id": "0",
     "slug": "metapod",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
@@ -100,7 +100,7 @@ export default [
     "maxHeight": 8
   },
   {
-    "id": 11,
+    "id": "1",
     "slug": "butterfree",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
@@ -110,7 +110,7 @@ export default [
     "maxHeight": 13
   },
   {
-    "id": 12,
+    "id": "2",
     "slug": "weedle",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
@@ -120,7 +120,7 @@ export default [
     "maxHeight": 4
   },
   {
-    "id": 13,
+    "id": "3",
     "slug": "kakuna",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
@@ -130,7 +130,7 @@ export default [
     "maxHeight": 11
   },
   {
-    "id": 14,
+    "id": "4",
     "slug": "beedrill",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
@@ -140,7 +140,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 15,
+    "id": "5",
     "slug": "pidgey",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
@@ -150,7 +150,7 @@ export default [
     "maxHeight": 4
   },
   {
-    "id": 16,
+    "id": "6",
     "slug": "pidgeotto",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
@@ -160,7 +160,7 @@ export default [
     "maxHeight": 16
   },
   {
-    "id": 17,
+    "id": "7",
     "slug": "pidgeot",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
@@ -170,7 +170,7 @@ export default [
     "maxHeight": 16
   },
   {
-    "id": 18,
+    "id": "8",
     "slug": "rattata",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
@@ -180,7 +180,7 @@ export default [
     "maxHeight": 4
   },
   {
-    "id": 19,
+    "id": "9",
     "slug": "raticate",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
@@ -190,7 +190,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 20,
+    "id": "0",
     "slug": "spearow",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
@@ -200,7 +200,7 @@ export default [
     "maxHeight": 5
   },
   {
-    "id": 21,
+    "id": "1",
     "slug": "fearow",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
@@ -210,7 +210,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 22,
+    "id": "2",
     "slug": "ekans",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
@@ -220,7 +220,7 @@ export default [
     "maxHeight": 20
   },
   {
-    "id": 23,
+    "id": "3",
     "slug": "arbok",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
@@ -230,7 +230,7 @@ export default [
     "maxHeight": 52
   },
   {
-    "id": 24,
+    "id": "4",
     "slug": "pikachu",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
@@ -240,7 +240,7 @@ export default [
     "maxHeight": 4
   },
   {
-    "id": 25,
+    "id": "5",
     "slug": "raichu",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
@@ -250,7 +250,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 26,
+    "id": "6",
     "slug": "sandshrew",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
@@ -260,7 +260,7 @@ export default [
     "maxHeight": 9
   },
   {
-    "id": 27,
+    "id": "7",
     "slug": "sandslash",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
@@ -270,7 +270,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 28,
+    "id": "8",
     "slug": "nidoran-f",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
@@ -280,7 +280,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 29,
+    "id": "9",
     "slug": "nidorina",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
@@ -290,7 +290,7 @@ export default [
     "maxHeight": 12
   },
   {
-    "id": 30,
+    "id": "0",
     "slug": "nidoqueen",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
@@ -300,7 +300,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 31,
+    "id": "1",
     "slug": "nidoran-m",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
@@ -310,7 +310,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 32,
+    "id": "2",
     "slug": "nidorino",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
@@ -320,7 +320,7 @@ export default [
     "maxHeight": 15
   },
   {
-    "id": 33,
+    "id": "3",
     "slug": "nidoking",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
@@ -330,7 +330,7 @@ export default [
     "maxHeight": 18
   },
   {
-    "id": 34,
+    "id": "4",
     "slug": "clefairy",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
@@ -340,7 +340,7 @@ export default [
     "maxHeight": 9
   },
   {
-    "id": 35,
+    "id": "5",
     "slug": "clefable",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
@@ -350,7 +350,7 @@ export default [
     "maxHeight": 24
   },
   {
-    "id": 36,
+    "id": "6",
     "slug": "vulpix",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
@@ -360,7 +360,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 37,
+    "id": "7",
     "slug": "ninetales",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
@@ -370,7 +370,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 38,
+    "id": "8",
     "slug": "jigglypuff",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
@@ -380,7 +380,7 @@ export default [
     "maxHeight": 6
   },
   {
-    "id": 39,
+    "id": "9",
     "slug": "wigglytuff",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
@@ -390,7 +390,7 @@ export default [
     "maxHeight": 10
   },
   {
-    "id": 40,
+    "id": "0",
     "slug": "zubat",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
@@ -400,7 +400,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 41,
+    "id": "1",
     "slug": "golbat",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
@@ -410,7 +410,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 42,
+    "id": "2",
     "slug": "oddish",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
@@ -420,7 +420,7 @@ export default [
     "maxHeight": 6
   },
   {
-    "id": 43,
+    "id": "3",
     "slug": "gloom",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
@@ -430,7 +430,7 @@ export default [
     "maxHeight": 9
   },
   {
-    "id": 44,
+    "id": "4",
     "slug": "vileplume",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
@@ -440,7 +440,7 @@ export default [
     "maxHeight": 18
   },
   {
-    "id": 45,
+    "id": "5",
     "slug": "paras",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
@@ -450,7 +450,7 @@ export default [
     "maxHeight": 5
   },
   {
-    "id": 46,
+    "id": "6",
     "slug": "parasect",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
@@ -460,7 +460,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 47,
+    "id": "7",
     "slug": "venonat",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
@@ -470,7 +470,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 48,
+    "id": "8",
     "slug": "venomoth",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
@@ -480,7 +480,7 @@ export default [
     "maxHeight": 20
   },
   {
-    "id": 49,
+    "id": "9",
     "slug": "diglett",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
@@ -490,7 +490,7 @@ export default [
     "maxHeight": 3
   },
   {
-    "id": 50,
+    "id": "0",
     "slug": "dugtrio",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
@@ -500,7 +500,7 @@ export default [
     "maxHeight": 10
   },
   {
-    "id": 51,
+    "id": "1",
     "slug": "meowth",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
@@ -510,7 +510,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 52,
+    "id": "2",
     "slug": "persian",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
@@ -520,7 +520,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 53,
+    "id": "3",
     "slug": "psyduck",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
@@ -530,7 +530,7 @@ export default [
     "maxHeight": 13
   },
   {
-    "id": 54,
+    "id": "4",
     "slug": "golduck",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
@@ -540,7 +540,7 @@ export default [
     "maxHeight": 27
   },
   {
-    "id": 55,
+    "id": "5",
     "slug": "mankey",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
@@ -550,7 +550,7 @@ export default [
     "maxHeight": 5
   },
   {
-    "id": 56,
+    "id": "6",
     "slug": "primeape",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
@@ -560,7 +560,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 57,
+    "id": "7",
     "slug": "growlithe",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
@@ -570,7 +570,7 @@ export default [
     "maxHeight": 11
   },
   {
-    "id": 58,
+    "id": "8",
     "slug": "arcanine",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
@@ -580,7 +580,7 @@ export default [
     "maxHeight": 36
   },
   {
-    "id": 59,
+    "id": "9",
     "slug": "poliwag",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
@@ -590,7 +590,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 60,
+    "id": "0",
     "slug": "poliwhirl",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
@@ -600,7 +600,7 @@ export default [
     "maxHeight": 12
   },
   {
-    "id": 61,
+    "id": "1",
     "slug": "poliwrath",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
@@ -610,7 +610,7 @@ export default [
     "maxHeight": 13
   },
   {
-    "id": 62,
+    "id": "2",
     "slug": "abra",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
@@ -620,7 +620,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 63,
+    "id": "3",
     "slug": "kadabra",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
@@ -630,7 +630,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 64,
+    "id": "4",
     "slug": "alakazam",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
@@ -640,7 +640,7 @@ export default [
     "maxHeight": 15
   },
   {
-    "id": 65,
+    "id": "5",
     "slug": "machop",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
@@ -650,7 +650,7 @@ export default [
     "maxHeight": 9
   },
   {
-    "id": 66,
+    "id": "6",
     "slug": "machoke",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
@@ -660,7 +660,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 67,
+    "id": "7",
     "slug": "machamp",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
@@ -670,7 +670,7 @@ export default [
     "maxHeight": 23
   },
   {
-    "id": 68,
+    "id": "8",
     "slug": "bellsprout",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
@@ -680,7 +680,7 @@ export default [
     "maxHeight": 10
   },
   {
-    "id": 69,
+    "id": "9",
     "slug": "weepinbell",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
@@ -690,7 +690,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 70,
+    "id": "0",
     "slug": "victreebel",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
@@ -700,7 +700,7 @@ export default [
     "maxHeight": 28
   },
   {
-    "id": 71,
+    "id": "1",
     "slug": "tentacool",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
@@ -710,7 +710,7 @@ export default [
     "maxHeight": 12
   },
   {
-    "id": 72,
+    "id": "2",
     "slug": "tentacruel",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
@@ -720,7 +720,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 73,
+    "id": "3",
     "slug": "geodude",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
@@ -730,7 +730,7 @@ export default [
     "maxHeight": 7
   },
   {
-    "id": 74,
+    "id": "4",
     "slug": "graveler",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
@@ -740,7 +740,7 @@ export default [
     "maxHeight": 10
   },
   {
-    "id": 75,
+    "id": "5",
     "slug": "golem",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
@@ -750,7 +750,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 76,
+    "id": "6",
     "slug": "ponyta",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
@@ -760,7 +760,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 77,
+    "id": "7",
     "slug": "rapidash",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
@@ -770,7 +770,7 @@ export default [
     "maxHeight": 24
   },
   {
-    "id": 78,
+    "id": "8",
     "slug": "slowpoke",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
@@ -780,7 +780,7 @@ export default [
     "maxHeight": 23
   },
   {
-    "id": 79,
+    "id": "9",
     "slug": "slowbro",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
@@ -790,7 +790,7 @@ export default [
     "maxHeight": 26
   },
   {
-    "id": 80,
+    "id": "0",
     "slug": "magnemite",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
@@ -800,7 +800,7 @@ export default [
     "maxHeight": 4
   },
   {
-    "id": 81,
+    "id": "1",
     "slug": "magneton",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
@@ -810,7 +810,7 @@ export default [
     "maxHeight": 17
   },
   {
-    "id": 82,
+    "id": "2",
     "slug": "farfetchd",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
@@ -820,7 +820,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 83,
+    "id": "3",
     "slug": "doduo",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
@@ -830,7 +830,7 @@ export default [
     "maxHeight": 26
   },
   {
-    "id": 84,
+    "id": "4",
     "slug": "dodrio",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
@@ -840,7 +840,7 @@ export default [
     "maxHeight": 23
   },
   {
-    "id": 85,
+    "id": "5",
     "slug": "seel",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
@@ -850,7 +850,7 @@ export default [
     "maxHeight": 15
   },
   {
-    "id": 86,
+    "id": "6",
     "slug": "dewgong",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
@@ -860,7 +860,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 87,
+    "id": "7",
     "slug": "grimer",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
@@ -870,7 +870,7 @@ export default [
     "maxHeight": 10
   },
   {
-    "id": 88,
+    "id": "8",
     "slug": "muk",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
@@ -880,7 +880,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 89,
+    "id": "9",
     "slug": "shellder",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
@@ -890,7 +890,7 @@ export default [
     "maxHeight": 3
   },
   {
-    "id": 90,
+    "id": "0",
     "slug": "cloyster",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
@@ -900,7 +900,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 91,
+    "id": "1",
     "slug": "gastly",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
@@ -910,7 +910,7 @@ export default [
     "maxHeight": 14
   },
   {
-    "id": 92,
+    "id": "2",
     "slug": "haunter",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
@@ -920,7 +920,7 @@ export default [
     "maxHeight": 18
   },
   {
-    "id": 93,
+    "id": "3",
     "slug": "gengar",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
@@ -930,7 +930,7 @@ export default [
     "maxHeight": 21
   },
   {
-    "id": 94,
+    "id": "4",
     "slug": "onix",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
@@ -940,7 +940,7 @@ export default [
     "maxHeight": 114
   },
   {
-    "id": 95,
+    "id": "5",
     "slug": "drowzee",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
@@ -950,7 +950,7 @@ export default [
     "maxHeight": 12
   },
   {
-    "id": 96,
+    "id": "6",
     "slug": "hypno",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
@@ -960,7 +960,7 @@ export default [
     "maxHeight": 30
   },
   {
-    "id": 97,
+    "id": "7",
     "slug": "krabby",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
@@ -970,7 +970,7 @@ export default [
     "maxHeight": 5
   },
   {
-    "id": 98,
+    "id": "8",
     "slug": "kingler",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
@@ -980,7 +980,7 @@ export default [
     "maxHeight": 20
   },
   {
-    "id": 99,
+    "id": "9",
     "slug": "voltorb",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
@@ -990,7 +990,7 @@ export default [
     "maxHeight": 9
   },
   {
-    "id": 100,
+    "id": "0",
     "slug": "electrode",
     "imageUrl":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",

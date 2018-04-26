@@ -1,19 +1,17 @@
 {
   "expo": {
-    "name": "pokedex2",
-    "description": "No description",
-    "slug": "snack-r1rATbA2f",
+    "name": "Pokegraph",
+    "description": "Pokedex on GraphQL, what could be better?",
+    "slug": "graphql-pokedex",
     "privacy": "unlisted",
     "sdkVersion": "26.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon":
-      "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
-    "loading": {
-      "icon":
-        "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
-      "hideExponentText": false
+    "icon": "assets/pokeballs-app-icon.png",
+    "splash": {
+      "image": "assets/pokeballs-app-icon.png",
+      "backgroundColor": "#FFFFFF"
     },
     "packagerOpts": {
       "assetExts": ["ttf", "mp4", "otf", "xml"]
