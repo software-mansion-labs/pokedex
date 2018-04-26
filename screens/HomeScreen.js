@@ -1,15 +1,38 @@
+import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { StyleSheet, FlatList, Image, Animated } from "react-native";
-import { AppLoading, Audio, Font, Asset } from "expo";
+import { StyleSheet, Image } from "react-native";
 import { createStackNavigator } from "react-navigation";
 
+// STEP 12
+// Notice that currently:
+//  1. We import static pokemons mock and pass it to PokemonsList.
+//     Wouldn't it be nice if we could pass fetched pokemons there?
+//  2. A simple answer would be "let's just pass the props we get
+//     from GraphQL in App down to HomeScreen and down to PokemonsList!"
+//     However, any change needed in PokemonRow would have to be then reflected
+//     in App's query (which is 3 components up!). Imagine using a couple of
+//     QueryRenderers and having to keep track of all the data needed by subcomponents
+//     in each QueryRenderer... Fortunately, GraphQL supports Fragments
+//     (http://graphql.org/learn/queries/#fragments) which are a very neat way
+//     of reusing the same query part in different places in the query.
+//
+// Open GraphiQL and try to extract the Species fields into a separate fragment.
+
+// STEP 13
+// Since GraphQL supports Fragments, there must be a way to use this feature in Relay!
+// You guessed right, there is! `createFragmentContainer` let's us define
+// a Relay container -- a component that is known to require certain fragment
+// of data. The good thing, the fragment usually is in the same file, so
+// you can see what data will the component receive.
+//
+// Import createFragmentContainer and graphql macro from react-relay.
+
 import pokemons from "../pokemons";
-import PokemonRow from "../components/PokemonRow";
 import SearchButton from "../components/SearchButton";
 import { playTheJingleAsync } from "../utils/easterEgg";
-import SearchBarHeader from "../components/SearchBarHeader";
+import PokemonsList from "../components/PokemonsList";
 
-class App extends Component {
+class HomeScreen extends Component {
   static navigationOptions = ({ navigation }) => ({
     headerTitle: (
       <Image
@@ -21,10 +44,16 @@ class App extends Component {
     headerRight: <SearchButton navigation={navigation} />
   });
 
+  static propTypes = {
+    navigation: PropTypes.shape({
+      getParam: PropTypes.func.isRequired,
+      setParams: PropTypes.func.isRequired
+    }).isRequired,
+    screenProps: PropTypes.object
+  };
+
   state = {
-    searchTerm: "",
-    playPokemonSoundOnMount: false,
-    searchBarHeight: new Animated.Value(0)
+    playPokemonSoundOnMount: true
   };
 
   componentDidMount() {
@@ -33,99 +62,57 @@ class App extends Component {
     }
   }
 
-  componentDidUpdate(prevProps) {
-    if (
-      !prevProps.navigation.getParam("search", false) &&
-      this.props.navigation.getParam("search", false)
-    ) {
-      this.animateSearchBarHeightTo(SearchBarHeader.HEIGHT);
-    }
-
-    if (
-      prevProps.navigation.getParam("scrollToTopCounter", 0) <
-      this.props.navigation.getParam("scrollToTopCounter", 0)
-    ) {
-      if (this.flatListRef) {
-        this.flatListRef.scrollToOffset({ offset: 0, animated: true });
-      }
-    }
-
-    if (
-      prevProps.navigation.getParam("search", false) &&
-      !this.props.navigation.getParam("search", false)
-    ) {
-      this.animateSearchBarHeightTo(0);
-    }
-  }
-
-  animateSearchBarHeightTo = toValue =>
-    Animated.timing(this.state.searchBarHeight, {
-      toValue
-    }).start();
-
-  extractKey = pokemon => pokemon.id;
-
-  getItemLayout = (data, index) => ({
-    length: PokemonRow.HEIGHT,
-    offset: PokemonRow.HEIGHT * index,
-    index
-  });
-
-  getPokemons = () => {
-    if (
-      this.props.navigation.getParam("search", false) &&
-      this.state.searchTerm.length > 0
-    ) {
-      return pokemons.filter(pokemon =>
-        pokemon.slug.includes(this.state.searchTerm.toLowerCase())
-      );
-    }
-
-    return pokemons;
-  };
-
-  handleFlatListMount = ref => {
-    this.flatListRef = ref;
-  };
-
-  handleRefresh = () => {};
-
-  handleSearchDismiss = () =>
-    this.props.navigation.setParams({ search: false });
-
-  handleChangeSearchText = searchTerm => this.setState({ searchTerm });
-
-  renderHeader = () => (
-    <SearchBarHeader
-      searchTerm={this.state.searchTerm}
-      onDismiss={this.handleSearchDismiss}
-      onChangeText={this.handleChangeSearchText}
-      heightAnimatedValue={this.state.searchBarHeight}
-    />
-  );
-
-  renderPokemon = ({ item: pokemon }) => <PokemonRow pokemon={pokemon} />;
-
   render() {
-    return (
-      <FlatList
-        numColumns={2}
-        style={styles.container}
-        data={this.getPokemons()}
-        ref={this.handleFlatListMount}
-        keyExtractor={this.extractKey}
-        renderItem={this.renderPokemon}
-        keyboardDismissMode="interactive"
-        getItemLayout={this.getItemLayout}
-        ListHeaderComponent={this.renderHeader}
-      />
-    );
+    // STEP 18
+    // Log out this.props.screenProps. Notice it contains our Relay-fetched data
+    // in the exact way that we define it in graphql document. Try adding another attribute
+    // to the fragment on speciesArray and notice that the new value is automatically
+    // added to screenProps.
+    //
+    // Once you're done with experimenting, delete the console.log.
+
+    return <PokemonsList pokemons={pokemons} navigation={this.props.navigation} />;
+
+    // STEP 19
+    // We're still using mocked data in our PokemonsList!
+    // Extend the speciesArray fields and include all the fields that are
+    // provided by our mock -- id, slug, imageUrl, {min,max}Height, {min,max}Weight.
+    //
+    // Then, instead of passing `pokemons` as `pokemons` prop, pass data from Relay
+    // available under screenProps.
+    //
+    // Remove import pokemons from "pokemons";
+
+    // STEP 26
+    // Instead of rendering PokemonsList, render PaginatedPokemonsList (also, change passed prop from 
+    // pokemons [now, PaginatedPokemonsList handles fetching specific list itself] to query [this is
+    // what PaginatedPokemonsList defines as its requirement in createPaginationContainer]).
   }
 }
 
+// STEP 14
+// Change the default export of createStackNavigator into assignment to some variable.
+
 export default createStackNavigator({
-  Main: App
+  Main: HomeScreen
 });
+
+// STEP 15
+// Let's create a fragment container out of our App's stack navigator. Export the container as the default.
+// Follow example of https://facebook.github.io/relay/docs/en/fragment-container.html#defining-containers.
+// Let the component require data on RootQueryType (this is the name of type of object
+// that is the root of all the queries). Fetch some data from speciesArray, eg. slug and imageUrl.
+//
+// Name the prop `screenProps`, as this is the only prop that the Stack Navigator passes
+// directly to children. (This also means that the fragment has to be named HomeScreen_screenProps).
+
+// STEP 23
+// Use the PokemonsList_pokemons fragment in speciesArray.
+// It is a plural fragment of a matching type (Species), so we can spread it
+// right inside the speciesArray field.
+
+// STEP 25
+// Include connection fragment in HomeScreen_screenProps fragment.
 
 const styles = StyleSheet.create({
   logo: { width: 92, height: 34, marginHorizontal: 16 },
